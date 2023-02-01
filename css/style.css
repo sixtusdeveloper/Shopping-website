@@ -207,9 +207,8 @@ img {
   padding: 0 20px;
 }
 .logo-img {
-  display: block;
   position: relative;
-  width: 150px;
+  width: 180px;
   height: 100%;
   object-fit: contain;
 }
