@@ -72,5 +72,10 @@ function validateForm() {
     const reg = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
     return reg.test(email)
   }
+}
 
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName('form')) {
+    form.reset()
+  }
 }
