@@ -677,7 +677,7 @@ footer {
 }
 
 .error-msg {
-  color: var(--orangered-color);
+  color: #ff4422;
   font-size: 0.91rem;
   font-weight: normal;
   padding: 3px;
@@ -691,12 +691,12 @@ footer {
 
 /* Error border */
 .error.form-group .form-control {
-  border: 3px solid #ff002f;
+  border: initial;
 }
 
 /* Success border */
 .success.form-group .form-control {
-  border: 3px solid forestgreen;
+  border: initial;
 }
 
 .comment-row .row-flex {

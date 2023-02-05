@@ -2,9 +2,10 @@
 const form = document.querySelector('#form')
 const fullName = document.querySelector('#name')
 const userEmail = document.querySelector('#email')
+const userSubject = document.querySelector('#subject')
 const userPhone = document.querySelector('#phone')
 const userMsg = document.querySelector('#message')
-let submitBtn = document.querySelector('#btnSubmit')
+let submitBtn = document.querySelector('#submit')
 
 form.addEventListener('submit', (event) => {
   validateForm()
@@ -61,7 +62,6 @@ function validateForm() {
   } else {
     setSuccess(userSubject)
   }
-
 
   // Userphone
   if (userPhone.value.trim() == '') {
