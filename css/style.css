@@ -254,11 +254,11 @@ img {
 }
 
 .active_links {
-  color: rgba(10, 146, 140, 0.912) !important;
+  color: #3ed1d1 !important;
 }
 
 .navbar .menu .nav-item .nav-link:hover {
-  color: orange;
+  color: #3ed1d1;
   cursor: pointer;
 }
 
