@@ -433,7 +433,7 @@
             </div>
           </div>
           <div class="contact-form">
-            <form action="">
+            <form action="#" class="form" id="form">
               <div class="row">
                 <div class="left">
                   <div class="form-group">
@@ -441,7 +441,10 @@
                       type="text"
                       placeholder="Enter your name"
                       class="form-control"
+                      id="name"
+                      name="name"
                     />
+                    <span class="error-msg">This is an error message!</span>
                   </div>
                 </div>
                 <div class="right">
@@ -450,7 +453,10 @@
                       type="email"
                       placeholder="Enter your email address"
                       class="form-control"
+                      id="email"
+                      name="email"
                     />
+                    <span class="error-msg">This is an error message!</span>
                   </div>
                 </div>
               </div>
@@ -461,7 +467,10 @@
                       type="text"
                       placeholder="Enter your phone number"
                       class="form-control"
+                      id="phone"
+                      name="phone"
                     />
+                    <span class="error-msg">This is an error message!</span>
                   </div>
                 </div>
               </div>
@@ -472,7 +481,10 @@
                       type="text"
                       placeholder="Enter the subject"
                       class="form-control"
+                      id="subject"
+                      name="subject"
                     />
+                    <span class="error-msg">This is an error message!</span>
                   </div>
                 </div>
               </div>
@@ -480,19 +492,22 @@
                 <div class="full-width">
                   <div class="form-group">
                     <textarea
-                      name=""
+                      name="message"
                       placeholder="Enter your message"
                       class="form-control"
-                      id=""
+                      id="message"
                       cols="30"
                       rows="10"
                     ></textarea>
+                    <span class="error-msg">This is an error message!</span>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="full-width">
-                  <button class="btn-1" type="submit">Send message</button>
+                  <button class="btn-1" type="submit" name="submit" id="submit">
+                    Send message
+                  </button>
                 </div>
               </div>
             </form>
@@ -545,9 +560,20 @@
             <h1>Our Newsletter</h1>
             <div class="border"></div>
             <p>Enter Your Email to get our news and updates.</p>
-            <form action="" class="newsletter-form">
-              <input type="text" class="txtb" placeholder="enter your email" />
-              <input type="submit" class="btn-1" value="submit" />
+            <form action="" class="newsletter-form" id="newsletterForm">
+              <input
+                type="email"
+                class="txtb"
+                name="newsletter_email"
+                placeholder="Enter your email"
+              />
+              <input
+                type="submit"
+                class="btn-1"
+                name="submit"
+                id="submit"
+                value="submit"
+              />
             </form>
           </div>
         </div>
@@ -556,5 +582,6 @@
     <!--===== Footer Section End =====-->
     <!--===== JS =====-->
     <script src="js/main.js"></script>
+    <script src="js/validate.js"></script>
   </body>
 </html>
