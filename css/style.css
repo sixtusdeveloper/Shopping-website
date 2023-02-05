@@ -253,8 +253,8 @@ img {
   transition: color 0.3s ease;
 }
 
-.smooth_scroll {
-  color: #047aed !important;
+.active_scroll {
+  color: rgba(10, 146, 140, 0.912) !important;
 }
 
 .navbar .menu .nav-item .nav-link:hover {
