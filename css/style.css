@@ -740,7 +740,7 @@ footer {
   .navbar .menu {
     position: fixed;
     left: -100%;
-    top: 110px;
+    top: 100px;
     flex-direction: column;
     background-color: var(--main-color);
     width: 60%;
