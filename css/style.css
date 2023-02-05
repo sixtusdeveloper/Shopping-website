@@ -253,6 +253,10 @@ img {
   transition: color 0.3s ease;
 }
 
+.smooth_scroll {
+  color: #047aed !important;
+}
+
 .navbar .menu .nav-item .nav-link:hover {
   color: orange;
   cursor: pointer;
