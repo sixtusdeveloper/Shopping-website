@@ -201,7 +201,7 @@ img {
 }
 .navbar.sticky {
   box-shadow: var(--shadow-black-100);
-  background: rgba(11, 11, 39, 0.9);
+  background: rgba(7, 7, 46, 0.9);
 }
 .navbar .container {
   padding: 0 20px;
