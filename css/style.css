@@ -269,12 +269,17 @@ img {
   width: 44px;
   border: 1px solid aliceblue;
   padding: 0;
+  cursor: pointer;
   border-radius: 5px;
   line-height: 34px;
   text-align: center;
   font-size: 18px;
   display: none;
   box-shadow: var(--shadow-black-100);
+}
+
+.menu-btn i {
+  font-size: 2rem;
 }
 /*===== Home Section =====*/
 .home-section {
