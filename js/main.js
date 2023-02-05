@@ -9,10 +9,12 @@ window.onscroll = () => {
 
 /* Navbar Toggler */
 const navMenu = document.querySelector('.menu')
+const iconBars = document.querySelector('.menu-btn i')
 navTogle = document.querySelector('.menu-btn')
 if (navTogle) {
   navTogle.addEventListener('click', () => {
     navMenu.classList.toggle('active')
+    iconBars.classList.toggle('fa-times')
   })
 }
 // closing menu when navlink is clicked
