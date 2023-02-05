@@ -13,6 +13,7 @@ const iconBars = document.querySelector('.menu-btn i')
 navTogle = document.querySelector('.menu-btn')
 if (navTogle) {
   navTogle.addEventListener('click', () => {
+    navTogle.style.background = '--var(main-color)'
     navMenu.classList.toggle('active')
     iconBars.classList.toggle('fa-times')
   })

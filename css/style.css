@@ -264,7 +264,7 @@ img {
 
 .menu-btn {
   color: var(--white);
-  background-color: var(--main-color);
+  background: transparent;
   height: 34px;
   width: 44px;
   border: 1px solid aliceblue;
@@ -278,9 +278,6 @@ img {
   box-shadow: var(--shadow-black-100);
 }
 
-.menu-btn i {
-  font-size: 2rem;
-}
 /*===== Home Section =====*/
 .home-section {
   position: relative;
