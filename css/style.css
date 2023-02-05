@@ -267,6 +267,7 @@ img {
   background-color: var(--main-color);
   height: 34px;
   width: 44px;
+  border: 1px solid #777;
   padding: 0;
   border-radius: 5px;
   line-height: 34px;
@@ -737,7 +738,7 @@ footer {
   .navbar .menu {
     position: fixed;
     left: -100%;
-    top: 117px;
+    top: 110px;
     flex-direction: column;
     background-color: var(--main-color);
     width: 60%;
