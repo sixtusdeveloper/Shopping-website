@@ -267,7 +267,7 @@ img {
   background-color: var(--main-color);
   height: 34px;
   width: 44px;
-  border: 1px solid #777;
+  border: 1px solid aliceblue;
   padding: 0;
   border-radius: 5px;
   line-height: 34px;
