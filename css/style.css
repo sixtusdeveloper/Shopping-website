@@ -253,7 +253,7 @@ img {
   transition: color 0.3s ease;
 }
 
-.active_scroll {
+.active_links {
   color: rgba(10, 146, 140, 0.912) !important;
 }
 
