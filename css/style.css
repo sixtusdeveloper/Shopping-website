@@ -691,7 +691,7 @@ footer {
 
 /* Error border */
 .error.form-group .form-control {
-  border: 1px solid #721c24;
+  border: 1px solid #777;
 }
 
 /* Success border */
