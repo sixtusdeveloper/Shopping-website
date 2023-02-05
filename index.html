@@ -433,7 +433,14 @@
             </div>
           </div>
           <div class="contact-form">
-            <form action="#" class="form" id="form">
+            <form
+              autocomplete="off"
+              novalidate
+              action="https://formspree.io/f/xayzqpqr"
+              class="form"
+              id="form"
+              method="POST"
+            >
               <div class="row">
                 <div class="left">
                   <div class="form-group">
@@ -568,17 +575,19 @@
               id="newsletterForm"
               mothod="POST"
             >
+              <span class="error-msg" id="error-mssg"></span>
               <input
                 type="email"
                 class="txtb"
-                name="newsletter_email"
+                id="newsletter-email"
+                name="newsletter-email"
                 placeholder="Enter your email"
               />
               <input
                 type="submit"
                 class="btn-1"
-                name="submit"
-                id="submit"
+                name="newsletter-submit"
+                id="newsletter-submit"
                 value="submit"
               />
             </form>
