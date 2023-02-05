@@ -11,10 +11,15 @@ form.addEventListener('submit', (event) => {
   validateForm()
   if (isFormValid() === true) {
     form.submit()
+    successSubmission()
   } else {
     event.preventDefault()
   }
 })
+
+function successSubmission() {
+  const successTxt = document.getElementById('success-txt')
+}
 
 // Validating the submission process
 function isFormValid() {
