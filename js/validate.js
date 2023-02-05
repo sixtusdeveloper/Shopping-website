@@ -17,10 +17,6 @@ form.addEventListener('submit', (event) => {
   }
 })
 
-function successSubmission() {
-  const successTxt = document.getElementById('success-txt')
-}
-
 // Validating the submission process
 function isFormValid() {
   const inputContainers = form.querySelectorAll('.form-group')
