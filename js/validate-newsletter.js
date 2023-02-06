@@ -1,5 +1,5 @@
 // Vanila script Validation
-const form = document.querySelector('#newsletterForm')
+const form = document.querySelector('#nnewsletterForm')
 const userEmail = document.querySelector('#newsletter-email')
 let submitBtn = document.querySelector('#newsletter-submit')
 
@@ -34,18 +34,6 @@ function validateForm() {
     setSuccess(userEmail)
   } else {
     setError(userEmail, 'enter a valid email address!')
-  }
-
-  // UserMsg
-  if (userMsg.value.trim() == '') {
-    setError(userMsg, 'field must not be empty!')
-  } else if (
-    userMsg.value.trim().length < 10 ||
-    userMsg.value.trim().lenghth > 500
-  ) {
-    setError(userMsg, 'Message should not exceed 500 characters!')
-  } else {
-    setSuccess(userMsg)
   }
 
   // Defining the error function

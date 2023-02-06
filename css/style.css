@@ -644,12 +644,17 @@ footer {
   color: var(--white);
   margin-bottom: 8px;
 }
+
 .newsletter-form {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.txtb {
+.newsletter-form .form-control {
+  max-width: 360px;
+}
+
+.newsletter-form .txtb {
   flex: 1;
   padding: 16px 40px;
   background-color: var(--white-100);
@@ -657,9 +662,8 @@ footer {
   font-weight: 700;
   outline: none;
   border-radius: 8px;
-  max-width: 360px;
 }
-.newsletter-form .btn-1 {
+.newsletter-form .form-control-btn .btn-1 {
   margin-left: 6px;
 }
 
