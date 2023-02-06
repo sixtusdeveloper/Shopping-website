@@ -650,11 +650,8 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-.newsletter-form .form-control {
-  max-width: 360px;
-}
 
-.newsletter-form .txtb {
+.newsletter-form .form-control.txtb {
   flex: 1;
   padding: 16px 40px;
   background-color: var(--white-100);
@@ -662,8 +659,9 @@ footer {
   font-weight: 700;
   outline: none;
   border-radius: 8px;
+  max-width: 360px;
 }
-.newsletter-form .form-control-btn {
+.newsletter-form .btn-1 {
   margin-left: 6px;
 }
 
