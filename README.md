@@ -1,4 +1,9 @@
-# Shopping-website
-A static shopping website
+Check out this landing page
 
-Check out this website on https://sixtusdeveloper.github.io/Shopping-website/
+
+[
+![landing-page-screenshot](https://github.com/user-attachments/assets/1c661245-252b-4fe7-a1d1-935f99628056)
+](https://landing-page-zeta-orpin.vercel.app)
+
+
+
