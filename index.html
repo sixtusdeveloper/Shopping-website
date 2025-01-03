@@ -573,7 +573,7 @@
             <div class="border"></div>
             <p>Enter Your Email to get our news and updates.</p>
             <form
-              novalidate
+              autocomplete="off"
               action="#"
               class="newsletter-form"
               id="newsletterForm"
@@ -597,6 +597,8 @@
                 />
               </div>
             </form>
+            <span class="error-msg-newsletter" id="error-mssg-newsletter"></span>
+            <span class="success-msg-newsletter" id="success-mssg-newsletter"></span>
           </div>
         </div>
       </div>
@@ -606,5 +608,6 @@
     <!--===== JS =====-->
     <script src="js/main.js"></script>
     <script src="js/validate.js"></script>
+    <script src="js/validate-newsletter.js"></script>
   </body>
 </html>

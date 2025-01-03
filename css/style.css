@@ -648,21 +648,26 @@ footer {
 .newsletter-form {
   display: flex;
   align-items: center;
+  justify-content: start;
+  gap: 4px;
   flex-wrap: wrap;
 }
 
 .newsletter-form .form-control.txtb {
   flex: 1;
-  padding: 16px 40px;
+  padding: 16px;
   background-color: var(--white-100);
   border: none;
-  font-weight: 700;
+  font-weight: 600;
   outline: none;
   border-radius: 8px;
-  max-width: 360px;
+  width: 100%;
+  position: relative;
+  max-width: 480px;
 }
 .newsletter-form .form-group-btn {
-  margin-left: 6px;
+  margin-left: 10px;
+
 }
 
 /* comment-row */
@@ -700,6 +705,24 @@ footer {
 .success.form-group .form-control {
   border: 1px solid lightseagreen;
 }
+
+.error-msg-newsletter{
+  color: #ff4422;
+  font-size: 0.91rem;
+  font-weight: normal;
+  margin: 5px 0px !important;
+  padding: 3px;
+  visibility: hidden;
+}
+
+.success-msg-newsletter{
+  color: green;
+  font-size: 0.91rem;
+  font-weight: normal;
+  margin: 5px 0px !important;
+  padding: 3px;
+  visibility: hidden;
+} 
 
 .comment-row .row-flex {
   border: 1px solid #b4becb;
@@ -836,10 +859,6 @@ footer {
   .right-col {
     order: 1;
     margin-bottom: 30px;
-  }
-
-  .btn-1 {
-    margin-top: 1rem;
   }
 
   /* comment-row */
