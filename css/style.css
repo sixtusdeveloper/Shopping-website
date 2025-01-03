@@ -707,21 +707,19 @@ footer {
 }
 
 .error-msg-newsletter{
-  color: #ff4422;
+  color: rgba(255, 196, 0, 0.947);
   font-size: 0.91rem;
-  font-weight: normal;
-  margin: 5px 0px !important;
+  font-weight: 600;
   padding: 3px;
-  visibility: hidden;
+  display: none;
 }
 
 .success-msg-newsletter{
   color: green;
   font-size: 0.91rem;
-  font-weight: normal;
-  margin: 5px 0px !important;
+  font-weight: 600;
   padding: 3px;
-  visibility: hidden;
+  display: none;
 } 
 
 .comment-row .row-flex {

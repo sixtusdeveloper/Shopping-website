@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Hide all messages
   function hideMessages() {
-    errorMssg.style.visibility = 'hidden';
-    successMssg.style.visibility = 'hidden';
+    errorMssg.style.display = 'none';
+    successMssg.style.display = 'none';
   }
 
   // Validate the email input field
@@ -52,19 +52,19 @@ document.addEventListener('DOMContentLoaded', () => {
   function displayMessage(message, type) {
     if (type === 'success') {
       successMssg.textContent = message;
-      successMssg.style.visibility = 'visible';
+      successMssg.style.display = 'block';
 
       // Automatically hide the success message after 3 seconds
       setTimeout(() => {
-        successMssg.style.visibility = 'hidden';
+        successMssg.style.display = 'none';
       }, 3000);
     } else if (type === 'error') {
       errorMssg.textContent = message;
-      errorMssg.style.visibility = 'visible';
+      errorMssg.style.display = 'block';
 
       // Automatically hide the error message after 3 seconds
       setTimeout(() => {
-        errorMssg.style.visibility = 'hidden';
+        errorMssg.style.display = 'none';
       }, 3000);
     }
   }
